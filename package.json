@@ -1,23 +1,29 @@
 {
-  "name": "chatcord",
+  "name": "chat_app",
   "version": "1.0.0",
-  "description": "Realtime chat app with rooms",
+  "description": "Real Time Chat App",
   "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server",
     "dev": "nodemon server"
   },
-  "author": "Brad Traversy",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/functionupjkg/RealTime-Chat-App.git"
+  },
+  "author": "Jyoti Kumari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/functionupjkg/RealTime-Chat-App.git"
+  },
+  "homepage": "https://github.com/gurubhaskary/Chat_App#readme",
   "dependencies": {
-    "@socket.io/redis-adapter": "^7.1.0",
-    "dotenv": "^14.3.2",
-    "express": "^4.17.1",
-    "moment": "^2.24.0",
-    "redis": "^4.0.2",
-    "socket.io": "^4.4.1"
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "socket.io": "^4.5.4"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.20"
   }
 }
